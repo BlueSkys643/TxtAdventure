@@ -1,9 +1,16 @@
 public class Character {
+
+    //Establish variables
+      public String name;
+      public int hp;
+      public int mp;
+      public int atk;
+      public int def;
     public Character(String name1, int HP, int MP, int Attack, int Defense) {
-        String name = name1;
-        int hp = HP;
-        int mp = MP;
-        int atk = Attack;
-        int def = Defense;
+        this.name = name1;
+        this.hp = HP;
+        this.mp = MP;
+        this.atk = Attack;
+        this.def = Defense;
     }
 }
